@@ -1,0 +1,205 @@
+body {
+    background-color: #bbc9c3;
+    margin: 0%;
+    padding: 0px;
+}
+
+#navbar {
+    font-size: 20px;
+    background-color: #535b51;
+    width: 100%;
+    height: auto; 
+    flex-direction: row; 
+    align-items: center;  
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#name {
+    font-size: 50px;
+    text-align: center;
+    color:rgb(236, 183, 126);
+    margin: 4%;
+    font-family: "Gloock", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.nav-content {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center; 
+    justify-content: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    padding-bottom: 50px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: rgb(202, 160, 115);
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    padding: 300px;
+    background-image: url('hotstone.jpg');
+    background-size: cover;
+    justify-content: flex-start;
+    background-position: center;
+    height: 200px;
+    margin-bottom: 40px;
+}
+
+#slogan {
+    font-size: 89px;
+    text-align: left;
+    padding-right: 30px;
+    color: rgb(239, 238, 236);
+    font-family: "Figtree", sans-serif;
+    font-weight: 50;
+    font-style: normal;
+}
+
+#booking-button {
+    font-size: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.nav-content li {
+    padding: 0 20px;
+}
+
+#book-now {
+    color: rgb(239, 238, 236);
+}
+
+@media (min-width: 700px) {
+    .nav-content li {
+        padding-right: 50px;
+    }
+    #slogan {
+        padding-left: 0px;
+        text-align: left;
+    }
+}
+
+#stone {
+    max-height: 890px;
+    max-width: 2900px;
+}
+
+#intro {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    gap: 40px;
+    background-color: rgb(114, 124, 93);
+    border-radius: 20px;
+}
+
+footer {
+    background-color: #535b51;
+    height: 200px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    display:flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-content {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin: 40px;
+    gap: 20px;
+    padding: 10px;
+}
+
+.therapists {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#intro {
+    font-family: "Figtree", sans-serif;
+    font-weight: 50px;
+    font-style: normal;
+}
+
+#intro h2 {
+    text-align: center;
+}
+
+.services {
+    padding: 40px;
+    background-color: rgb(147, 162, 160);
+    text-align: center;
+    border-radius: 20px;
+}
+
+.services h1 {
+    color: rgb(156, 28, 9);
+}
+
+#form {
+    background-image: url("vase.jpg");
+    background-size: cover;
+    padding: 300px;
+    font-size: 25px;
+    text-align: center;
+    font-family: "Figtree", sans-serif;
+    font-weight: 50px;
+    font-style: normal;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+}
+
+#submit {
+    background-color: #535b51;
+    color: #ffffff;
+    border-style: none;
+    padding: 20px;
+    border-radius: 9px;
+    font-family: "Figtree", sans-serif;
+    /* font-weight: 50px; */
+    font-style: normal;
+    font-size: 26px
+}
+
+#finalmessage {
+    font-family: "Figtree", sans-serif;
+    font-weight: 50px;
+    font-style: normal;
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+
+@media (max-width: 900px) {
+    #form {
+        padding: 50px;
+    }
+
+    form {
+        padding: 50px;
+        max-width: 100%;
+    }
+}
